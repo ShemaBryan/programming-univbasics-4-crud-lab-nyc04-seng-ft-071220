@@ -1,47 +1,45 @@
 def create_an_empty_array
-    create_an_empty_array = []
+   []
 end
+
 def create_an_array
-  create_an_array = ["books", "computer", "pens", "pencil"]
-
+    ["books", "computer", "pens", "pencil"]
+end
 def add_element_to_end_of_array(array, element)
-
-  add_element_to_end_of_array = ["books", "computer", "pens", "pencil"]
-
-  add_element_to_end_of_array << "notebook"
+    ["books", "computer", "pens", "pencil"]
+    add_element_to_end_of_array << "notebook"
 end
 
 def add_element_to_start_of_array(array, element)
-
-    add_element_to_start_of_array = ["books", "computer", "pens", "pencil"]
-
-    add_element_to_start_of_array.unshift "notebook"
+    ["books", "computer", "pens", "pencil"]
+     add_element_to_start_of_array.unshift "notebook"
 end
+
 def remove_element_from_end_of_array(array)
-    remove_element_from_end_of_array = ["books", "computer", "pens", "pencil"]
-
-    remove_element_from_end_of_array.pop
+    ["books", "computer", "pens", "pencil"]
+     remove_element_from_end_of_array.pop
 end
+
 def remove_element_from_start_of_array(array)
-    remove_element_from_start_of_array = ["books", "computer", "pens", "pencil"]
-
-    remove_element_from_start_of_array.shift
+     ["books", "computer", "pens", "pencil"]
+      remove_element_from_start_of_array.shift
 end
+
 def retrieve_element_from_index(array, index_number)
-    retrieve_element_from_index = ["books", "computer", "pens", "pencil"]
-
-    retrieve_element_from_index [3]
+    ["books", "computer", "pens", "pencil"]
+     retrieve_element_from_index [3]
 end
+
 def retrieve_first_element_from_array(array)
-    retrieve_first_element_from_array = ["books", "computer", "pens", "pencil"]
+    ["books", "computer", "pens", "pencil"]
     retrieve_first_element_from_array [0]
 end
+
 def retrieve_last_element_from_array(array)
     retrieve_last_element_from_array [-1]
 end
 def update_element_from_index(array, index_number, element)
-    update_element_from_index = ["books", "computer", "pens", "pencil"]
+    ["books", "computer", "pens", "pencil"]
     update_element_from_index [1]
     update_element_from_index [1] = "pencil"
 end
-end 
