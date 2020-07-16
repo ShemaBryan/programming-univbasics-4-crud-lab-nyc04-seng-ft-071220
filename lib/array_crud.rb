@@ -1,18 +1,19 @@
+
 def create_an_empty_array
+
    []
 end
 
 def create_an_array
-  my_array =  ["books", "computer", "pens", "pencil"]
+  ["books", "computer", "pens", "pencil"]
 end
 def add_element_to_end_of_array(array, element)
-  my_array = ["books", "computer", "pens", "pencil"]
-    my_array << "notebook"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-    my_array = ["books", "computer", "pens", "pencil"]
-    my_array.unshift "notebook"
+    
+    array.unshift (element)
 end
 
 def remove_element_from_end_of_array(array)
